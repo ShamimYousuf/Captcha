@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+         <head>
+            <link rel="stylesheet" type="text/css" href="captcha.css">
+             
+             
+             <script type="text/javascript" src="captcha.js">
+                 
+             </script>    
+ </head>
+     <body onload="Captcha(); reset();">
+      <header>
+        <h1>Captcha Typing Learning</h1> <p> Default captcha timing is 15 seconds </p>
+      </header>
+
+    
+        <table class="main">
+          <tr>
+           <td>
+                 Text Captcha
+           </td>
+          </tr>
+          <tr>
+           <td>
+             <p id="mainCaptcha"></p>
+              <input type="button" id="autorefresh" value="Start" class="btn" onclick="AutoCallCaptcha();" />
+              <input type="button" id="stop" value="Stop" class="btn" onclick="window.location.reload();" />
+           </td>
+          </tr>
+          <tr>
+           <td>
+             
+            <input type="text" id="txtInput" class="editbox"/>    
+          </td>
+         </tr>
+         <tr>
+          <td>
+  
+            <p id="check"></p>
+            <table class="result">
+                <tr><th>Valid</th><th>Invalid</th><th>Total</th></tr>
+                <tr>
+                  <td><span id="validcount"></span> </td>
+                  <td><span id="invalidcount"></span></td>
+                  <td><span id="total"></span></td></tr>
+              </table>
+          </td>
+        </tr>
+      
+      </table>
+
+      <div class="timebox"> 
+      <p>  <h2>Time Left :: </h2>
+        <span id="minutes" class="time" ></span><font size="5"> : 
+                        </font> 
+        <span id="seconds" class="time" ></span></p>
+    </div> 
+
+    </body>
+ </html>
