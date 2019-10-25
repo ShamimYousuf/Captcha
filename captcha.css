@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(107, 75, 10);
+    color: antiquewhite;
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    background-color: rgb(17, 51, 40);
+    width: 90%;
+    margin: 40px;
+    border: 1px solid whitesmoke;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.result {
+    width: 90%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.editbox {
+    width: 250px;
+    font-size: 36px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#mainCaptcha {
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    width: 250px;
+    font-family: cursive;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    font-size: 36px;
+    
+}
+
+
+.btn {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    color: rgb(66, 15, 15);
+    width: 90px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: 50px;
+    position: absolute;
+    background-color: burlywood;
+}
+
+#stop {
+    /* background-color: palevioletred; */
+    right: 90px;
+
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+#autorefresh {
+    /* background-color: green; */
+    
+    right: 200px;
+}
+
+.time {
+    width: 45px; 
+    border: none; 
+    font-size: 30px;  
+    font-weight: bold; 
+    color: black;
+    background-color: yellowgreen;
+}
+
+.timebox {
+    text-align: center;
+}
+
+.result td {
+    text-align: center;
+}
+
+.result th, .result td {
+    border: 1px solid rgb(151, 207, 60);
+  }
+
+  header {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
